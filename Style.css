@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    height: 100vh;
+    width: 100%;
+    min-width: 0%;
+    left: 0;
+}
+.nav div a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    margin: 0px;
+    color: white;
+    background-color:orange;
+    height:fit-content;
+    width:100%;
+    color : white;
+    display : flex;
+    flex-wrap: wrap;
+    align-items : center;
+    justify-content : space-between;
+    
+}
+.logo{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin:4px ;  
+}
+
+.logo:hover{
+    text-decoration: underline;
+}
+
+i{
+    margin: 4px;
+}
+.nav2{
+    display: flex;
+    margin-right: 5%;
+}
+.nav_div{
+    
+    height: 40px;
+    
+    display: flex;
+    align-items: center;  
+    margin-inline: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid transparent ;
+}
+.nav_div:hover{
+    color: blue;
+    
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url("BGLP.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+
+
+
+.background div{
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.background button{
+    width: 150px;
+    height:fit-content ;
+    text-align: center;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0.5rem 0.5rem 1.5rem black;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: orange;
+    
+}
+.background button:hover{
+  
+    
+    background-color: red;
+}
+.bottom{
+    position: absolute;
+    right: 1%;
+    bottom: 1%;  
+    width:200px;
+    background-color: black; 
+}
+.bottom div{
+    overflow: hidden;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 2%;
+    background-color: orangered; 
+    color: black;
+    padding-inline: 5%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.background:hover .bottom div{
+    background-color: white;
+    transform: scale(1.03);
+}
+
+
+.start{
+    height: 50px;
+    background-color: orange;
+    font-size: larger;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.rec{
+    padding-top: 5%;
+}
+.rec_1{
+    padding-top: 10px;
+    height: 50px;
+    color: black;
+    font-size: 40px;
+    text-align:center;
+
+}
+.recommendation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:2rem;
+    padding-inline:1rem;
+    
+}
+h3{
+    font-weight: 900;
+}
+
+.box{
+
+    height: 16rem;
+    width: 10rem;
+    margin-inline:0.5%;
+    margin-top: 1%;
+    margin-bottom:10px ;
+    border: 4px solid orange;
+    background-color: floralwhite;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.box div{
+    overflow: hidden;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+    background-position: center;
+}
+.box h4:hover{
+    text-decoration: underline;
+}
+.box:hover{
+    box-shadow: 0px 0px 30px rgba(0, 21, 55, 0.2);
+    border: 4px solid white;  
+}
+.recommendation2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:2rem;
+    padding-inline:1rem;   
+}
+.box1{
+    height: 16rem;
+    width: 28rem;
+    margin-inline: 1%;
+    margin-top: 1%;
+    margin-bottom:10px ;
+    border: 4px solid white;
+    background-color:wheat;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 2rem;    
+}
+.box1 div{
+    
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius:2rem ;
+    height: 100%;
+    width: 100%;  
+}
+.box1 div h3:hover{
+    text-decoration:underline;
+}
+.box1 div ul{
+    font-family: none;
+    padding-top: 1rem;
+    list-style-type: none;
+    color:rgb(255, 255, 255);
+}
+.box1 div ul li{
+    margin: 2%;
+}
+
+.box1:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 30px rgba(180, 89, 35, 0.9);
+}
+.whyus{
+    color: orange;
+    height:fit-content;
+    width: 100%;
+    padding: 3rem;
+    margin: auto; 
+    margin-top: 1.5rem;
+    text-align: center;   
+}
+.contact{
+    background-color: lightgrey;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.hero{
+    width:100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+    background: var(--second-color);
+}
+input,textarea{
+    width: 100%;
+    padding:10px;
+    outline: 0;
+    border: 1px solid black;
+    color: #070404;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: var(--bg-color);
+    cursor: text;
+    transition: 0.2s;
+}
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+button{
+    background-color:#071952;
+    padding-inline: 5px;
+    border: 2px solid #071952;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+button:hover{
+    transform: scale(1.3);
+}
+.end{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+.end div{
+    background-color: aqua;
+    font-size: 1rem;
+    margin: 2%;
+    margin-top: 1%;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+    padding-inline: 1.5%;
+    width: 300px;
+    height: 5rem;
+}
+.end div span{
+    font-size: 1.7rem;
+    margin-right: 2rem;
+    padding-right: 5%;
+    
+}
+footer{
+    background-color:rgba(70, 90, 80, 0.1);
+    height: fit-content;   
+    padding: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+footer div a i{
+    font-size: 1rem;
+    width: 20px;
+}
